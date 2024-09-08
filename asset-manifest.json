@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/berwyn-portfolio/static/css/main.1b2ca49b.css",
+    "main.js": "/berwyn-portfolio/static/js/main.e980ea39.js",
+    "static/js/453.bb828c5d.chunk.js": "/berwyn-portfolio/static/js/453.bb828c5d.chunk.js",
+    "static/media/berwyn.jpg": "/berwyn-portfolio/static/media/berwyn.8d7e5bf8b205ac1050be.jpg",
+    "index.html": "/berwyn-portfolio/index.html",
+    "main.1b2ca49b.css.map": "/berwyn-portfolio/static/css/main.1b2ca49b.css.map",
+    "main.e980ea39.js.map": "/berwyn-portfolio/static/js/main.e980ea39.js.map",
+    "453.bb828c5d.chunk.js.map": "/berwyn-portfolio/static/js/453.bb828c5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b2ca49b.css",
+    "static/js/main.e980ea39.js"
+  ]
+}
