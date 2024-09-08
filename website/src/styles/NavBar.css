@@ -1,0 +1,67 @@
+/* Navbar.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-center .react-scroll-link,
+  .navbar-right .react-scroll-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+  
+  .navbar-center .react-scroll-link:hover,
+  .navbar-right .react-scroll-link:hover {
+    color: #f39c12;
+  }
+  
+  .navbar-center {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .navbar-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      padding: 10px 20px;
+    }
+  
+    .navbar-center {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-right {
+      justify-content: center;
+    }
+  
+    .navbar-center .react-scroll-link,
+    .navbar-right .react-scroll-link {
+      margin: 10px;
+      font-size: 14px;
+    }
+}
+  
