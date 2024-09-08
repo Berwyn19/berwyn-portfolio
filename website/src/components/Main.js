@@ -2,6 +2,7 @@ import About from "./About"
 import Experience from "./Experience"
 import Education from "./Education"
 import Portfolio from "./Portfolio"
+import Contact from "./Contact"
 
 export default function Main() {
     return (
@@ -10,6 +11,7 @@ export default function Main() {
             <Experience/>
             <Education/>
             <Portfolio/>
+            <Contact/>
         </main>
     )
 }
